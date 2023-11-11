@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.goodfood{
+    width: 100%;
+   margin-top: 20px;
+   .dyt{
+    color: $font-color;
+    font-size: 25px;
+   }
+   h2{
+    font-size: 60px;
+   }
+   .cnt{
+    font-size: 20px;
+   }
+   .captions{
+    display: flex;
+    width: 500px;
+    gap: 30px;
+   }
+   .captionstwo{
+    display: flex;
+    width: 500px;
+    gap: 30px;
+   }
+}
+.aboutrestaurant{
+    width: 100%;
+    margin-top: 20px;
+    .dyt{
+     color: $font-color;
+     font-size: 25px;
+    }
+    h2{
+     font-size: 60px;
+    }
+    .cnt{
+     font-size: 20px;
+    }
+    .btn{
+        width: 200px;
+        height: 50px;
+        border: 1px solid $font-color;
+    }
+}
+.btn:hover {
+    background-color: orange;
+    color: white;
+}
+.navbar{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.collapse{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    gap: 30px;
+    .btn{
+        width: 200px;
+        height: 50px;
+        border: 1px solid $font-color;
+    }
+    .navbar-nav{
+        display: flex;
+        gap: 30px;
+        color: $main-color;
+        font-weight: 500;
+    }
+}
+.resurvation{
+    width: 100%;
+    height: 850px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-image: url('https://www.maggiesovenservices.co.uk/blog/wp-content/uploads/2014/09/cuisine1.jpg');
+   .firstcontainer{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    .btn{
+        width: 200px;
+        height: 50px;
+        background-color: orange;
+        color: white;
+    }
+    .dyt{
+        color: $font-color;
+        font-size: 25px;
+       }
+       h2{
+        font-size: 90px;
+       }
+       .cnt{
+        font-size: 20px;
+       }
+   }
+}

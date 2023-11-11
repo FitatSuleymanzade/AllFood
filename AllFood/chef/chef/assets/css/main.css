@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.goodfood {
+  width: 100%;
+  margin-top: 20px;
+}
+.goodfood .dyt {
+  color: rgb(210, 98, 18);
+  font-size: 25px;
+}
+.goodfood h2 {
+  font-size: 60px;
+}
+.goodfood .cnt {
+  font-size: 20px;
+}
+.goodfood .captions {
+  display: flex;
+  width: 450px;
+  gap: 30px;
+}
+.goodfood .captionstwo {
+  display: flex;
+  width: 500px;
+  gap: 10px;
+}
+
+.aboutrestaurant {
+  width: 100%;
+  margin-top: 20px;
+}
+.aboutrestaurant .dyt {
+  color: rgb(210, 98, 18);
+  font-size: 25px;
+}
+.aboutrestaurant h2 {
+  font-size: 60px;
+}
+.aboutrestaurant .cnt {
+  font-size: 20px;
+}
+.aboutrestaurant .btn {
+  width: 200px;
+  height: 50px;
+  border: 1px solid rgb(210, 98, 18);
+}
+
+.btn:hover {
+  background-color: orange;
+  color: white;
+}
+
+.navbar {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.collapse {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 30px;
+}
+.collapse .btn {
+  width: 200px;
+  height: 50px;
+  border: 1px solid rgb(210, 98, 18);
+}
+.collapse .navbar-nav {
+  display: flex;
+  gap: 30px;
+  color: black;
+  font-weight: 500;
+}
+
+.resurvation {
+  width: 100%;
+  height: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size:200%;
+  background-image: url("https://www.maggiesovenservices.co.uk/blog/wp-content/uploads/2014/09/cuisine1.jpg");
+}
+.resurvation .firstcontainer {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+
+
+}
+.resurvation .firstcontainer .btn {
+  width: 200px;
+  height: 50px;
+  background-color: orange;
+  color: white;
+}
+.resurvation .firstcontainer .dyt {
+  color: rgb(210, 98, 18);
+  font-size: 25px;
+}
+.resurvation .firstcontainer h2 {
+  font-size: 90px;
+}
+.resurvation .firstcontainer .cnt {
+  font-size: 20px;
+}
